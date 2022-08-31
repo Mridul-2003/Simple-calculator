@@ -1,0 +1,48 @@
+.container{
+    text-align:center;
+    margin-top:30px;
+    
+}
+table{
+    margin:auto;
+}
+input#screen {
+    font-size: 30px;
+    border-radius: 20px;
+}
+button {
+    font-size: 20px;
+    width: 80px;
+    height: 60px;
+    background-color: green;
+    border-radius: 20px;
+    animation-name:colourchange;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes colourchange{
+    0%{
+        background-color: green;
+    }
+    25%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: brown;
+    }
+    100%{
+        background-color: yellow;;
+    }
+}
+button:hover{
+    cursor:pointer;
+    background-color: gray;
+}
+.calculator{
+    display:inline-block;
+    background-color: #ff99f7;
+    padding:23px;
+    border-radius:53px;
+    border:2px solid red;
+
+}
